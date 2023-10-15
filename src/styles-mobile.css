@@ -1,0 +1,25 @@
+header {
+flex-direction: column;
+}
+
+header nav {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 0;
+}
+
+header nav a {
+margin-top: 2px;
+text-align: center;
+} 
+
+#menu-icon{
+color: #ffffff;
+text-align: center;
+background-color: #000000;
+visibility: visible;
+width: 100%;
+padding: 3px;
+border-radius: 10%;
+}
