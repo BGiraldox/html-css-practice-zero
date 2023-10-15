@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+}
+
+header nav {
+    margin: 10px;
+}
+
+header nav a {
+    background-color: #000000;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+header nav a:hover {
+    background-color: aqua;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    margin-left: 10px;
+}
+
+article {
+    background-color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+
+article > h2, p{
+    font-size: 95%;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.headerTitle img {
+    width: 20%;
+}
+
+.headerTitle div {
+    text-align: center;
+    width: 80%;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+#mainTitle {
+    font-size: 2rem;
+}
+
+#mainSubtitle {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 + article {
+    color: #10e830;
+}
+
+td ~ td {
+    border: 2px solid black;
+}
+
+th:first-child {
+    border: 2px solid black;
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav a {
+        margin-top: 2px;
+        text-align: center;
+    } 
+  }
